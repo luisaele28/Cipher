@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro');
+   
+* {
+  font-family: 'Source Code Pro' monospace;
+}
+
+body{
+  background-image: url("img/cesar3.jpg");
+  background-size: 100%;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 100px;
+}
+
+main {
+  background: black;
+  opacity: 0.70;
+  color: white;
+  border-radius: 20%;
+  padding: 30px;
+  box-shadow: 10px 10px 35px 0px rgb(0 0 0 /75%);
+}
+
+h1 { 
+  justify-content: center;
+  display: flex;
+  color: white;
+}
+ 
+button {
+  text-decoration: none;
+  padding: 15px;
+  background: rgb(211, 200, 200);
+}
+
+div {
+  margin: 15px;
+  font-size: 35px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white; 
+}
+
+  h2, h3, button {
+  font-size: 17px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+  button:hover {
+  background: brown;
+}
+
+.capa {
+ width: 100%;
+ background: black ;
+ opacity: 0.70;
+}
+
+@media (max-width: 800px){
+  body{
+    background-image: url("img/cesar2.jpg");
+    margin: 70px;
+    background-repeat: no-repeat; 
+    background-position: center ;
+}
+
+div {
+  font-size: 25px;
+}
+
+h1 { 
+  margin: 15px;
+  font-size: 20px;
+
+}
+
+.capa {
+  border-radius: 35px;
+  margin-top: 150px;
+ }
+
+ main {
+  box-shadow: 10px 10px 20px 0px rgb(0 0 0 /75%);
+  margin-top: 70px;
+  padding: 25px;
+}
+
+}
